@@ -5,3 +5,15 @@ margin-bottom: 50px;
 border-style: solid;
 border-color: rgb(255, 255, 255);
 }
+
+
+.intro-text{
+   font-size: 13px;
+}
+
+@media (max-width: 767px){
+
+.intro-text{
+        display: none;
+    }
+}
